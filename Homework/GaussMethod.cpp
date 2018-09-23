@@ -14,9 +14,9 @@ int main(){
     }
     for(int k=0;k<n-1;k++) {
         for (int i = 1; i < n; i++) {
-            int c = 0 - a[i][k] / a[k][k];
+            int c = a[i][k] / a[k][k];
             for (int j = 0; j < i; j++) {
-                a[i][j] = c * a[k][j] + a[i][j];
+                a[i][j] -= c * a[k][j];
             }
         }
     }
