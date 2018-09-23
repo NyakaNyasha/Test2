@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     int n;
-    double x
+    double x;
     cin>>n;
     int a[n][n+1];
     for(int i=0;i<n;i++){
