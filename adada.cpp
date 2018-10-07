@@ -12,14 +12,13 @@ int fun(int i, int s, int* & a){
             }
         }
     }
-    /*int b = new [s];
+    int b = new [s];
     for (i=0; i<s; i++){
         b[i] = a[i];
     }
     delete []a;
     a=b;
     }
-    */
     for (i=0; i<s; i++){
         cout << a[i] << ' ';
     }
